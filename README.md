@@ -57,6 +57,13 @@ Example:
 ./qscanner -qlog -keylog -output scan_2022_XX_YY -input input.txt -http3 -bucket-refill-duration 100 -bucket-size 1
 ```
 
+## Input
+
+The scanner expects an input file in CSV format with a single **IP,port** on each line.
+Only have Nmap output?
+No problem!
+Use `python3 xml2csv.py myNmapOutput.xml > input.txt` to create your input file.
+
 ## Output
 
 The scanner creates a directory containing:
