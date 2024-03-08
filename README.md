@@ -13,7 +13,7 @@ The scanner retrieves information regarding
 ## Contributors
 - Phillipe Buschmann, Technical University of Munich
 - [Johannes Zirngibl, Technical University of Munich](https://www.net.in.tum.de/members/zirngibl/)
-- And me, Chris Elgee, at least for the Docker process (-:
+- [Chris Elgee](https://www.sans.org/profiles/christopher-elgee/), Counter Hack, for some odds and ends
 
 ## Build process
 Can only be used with go 1.18 at the moment.
