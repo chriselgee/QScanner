@@ -13,19 +13,23 @@ The scanner retrieves information regarding
 ## Contributors
 - Phillipe Buschmann, Technical University of Munich
 - [Johannes Zirngibl, Technical University of Munich](https://www.net.in.tum.de/members/zirngibl/)
+- And me, Chris Elgee, at least for the Docker process (-:
 
 ## Build process
-Can only be used with go 1.16 at the moment.
+Can only be used with go 1.18 at the moment.
 
 - `git pull`
 - `go clean -modcache`
 - `go mod tidy`
 - `go build`
 
+## Build with Docker
+- `./build-docker.sh`
+
 ## Usage
 
 ```
-Usage of ./quic-scanner:
+Usage of ./qscanner:
   -bucket-refill-duration int
         sets the bucket refill duration in ms of the scan (default 100)
   -bucket-size int
